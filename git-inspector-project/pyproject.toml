@@ -1,0 +1,9 @@
+[project]
+name = "git-inspector"
+version = "0.1.0"
+description = "Inspect a local git repository and print readable summaries of its commit history, branches, and working tree status."
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
